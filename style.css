@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("first.jpeg") no-repeat center;
+    background: url("first.jpg") no-repeat center;
     height: 100vh;
     color: rgba(185, 24, 70, 0.982);
     min-height: 500px;
@@ -259,7 +259,7 @@ section .title::after{
 
 /* services section styling */
 .services, .teams{
-    color:#fff;
+    color:grey;
     background: #111;
 }
 .services .title::before,
@@ -273,7 +273,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: url("second.jpeg") no-repeat center;
+    background: white no-repeat center;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -291,16 +291,17 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: grey;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #fff;
+    color: yellow;
 }
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: yellow;
 } 
 
 /* teams section styling */
@@ -314,9 +315,11 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    color: yellow;
 }
 .teams .carousel .card:hover{
     background: rgb(229, 241, 0);
+    color: grey;
 }
 .teams .carousel .card .box{
     display: flex;
